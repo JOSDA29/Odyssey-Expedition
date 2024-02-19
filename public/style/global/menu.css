@@ -1,0 +1,58 @@
+@import url('variables.css');
+
+/*MENU*/
+.menu {
+    background: var(--craterBrown);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+#menu-logo {
+    width: 80px;
+    height: 80px;
+    padding: 0 2rem;
+}
+
+.menu-name {
+    text-align: center;
+    color: var(--white);
+}
+
+.menu-content {
+    color: var(--white);
+}
+
+.menu-content ul  {
+    display: flex;
+}
+
+.menu-content ul li {
+    padding: 0 4rem;
+}
+
+.menu-content li a{
+    list-style: none;
+	margin: auto;
+}
+
+.menu-content li a {
+	text-decoration: none;
+}
+
+/*SUBMENU*/
+
+.submenu {
+    background-color: var(--white);
+    color: var(--craterBrown);
+}
+
+.submenu ul {
+    display: flex;
+    justify-content: center;
+}
+
+.submenu ul li {
+    padding: 2rem 3rem;
+}

@@ -1,0 +1,21 @@
+@import url('variables.css');
+
+footer {
+    background-color: var(--white);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50vh;
+}
+
+.footer-content {
+    width: 12rem;
+}
+
+.footer-content h3{
+    padding: 1rem 0;
+}
+
+.footer-content p{
+    padding: .5rem 0;
+}

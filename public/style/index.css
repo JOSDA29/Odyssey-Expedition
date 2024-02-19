@@ -1,0 +1,172 @@
+@import url('variables.css');
+
+/*GENERAL*/
+.wrapper {
+    background-color: var(--pinky);
+}
+
+/*TICKET*/
+.container-ticket {
+    background-image: url(/public/assets/img/wallpaper/fondoInicio.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 12rem;
+}
+
+.ticket {
+    background-color: var(--craterBrown);
+    color: var(--craterBrown);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ticket-values {
+    background-color: var(--white);
+    margin: 1rem 0;
+    padding: .2rem;
+    height: 5rem;
+}
+
+.ticket-content {
+    margin-top: .5rem;
+    padding-left: .5rem;
+}
+
+.ticket-destiny {
+    width: 35%;
+}
+
+.ticket-date {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#date {
+    color: var(--white);
+}
+
+.ticket-dates {
+   flex-direction: column;
+}
+
+.ticket-room {
+    width: 20%;
+}
+
+.ticket-rooms-quantity {
+    display: flex;
+    justify-content: space-around;
+}
+
+#ticket-btn {
+    width: 15%;
+    background-color: var(--pinky);
+    border: none;
+    margin: 1rem 0;
+    cursor: pointer;
+}
+
+#ticket-btn:hover {
+    color: var(--white);
+    cursor: pointer;
+}
+
+/*DESTINIES*/
+.destinies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 20vh;
+}
+
+.destinies-title {
+    color:var(--craterBrown);
+    width: 20%;
+}
+
+/*SLIDER*/
+.slider {
+    border-top: .3rem solid var(--craterBrown);
+    border-bottom: .3rem solid var(--craterBrown);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.slider-arrow {
+    width: 3rem;
+}
+
+.slider-img {
+    width: 48rem;
+    height: 23rem;
+    margin: 0 1rem;
+}
+
+/*RECOMENDATION*/
+.recomendation {
+    color: var(--craterBrown);
+}
+
+.recomendation h2{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+/*CARD*/
+.card-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 2rem 0 3rem 0;
+}
+
+.card {
+    margin: 1rem;
+    background-color: var(--white);
+    border-radius: 1rem;
+    height: 36rem;
+}
+
+.card-img {
+    width: 25rem;
+    height: 15rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.card h3 {
+    background-color: var(--grayLight);
+    padding: 0.5rem;
+}
+
+.card-content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: .1rem solid var(--craterBrown);
+    padding: .5rem;
+}
+
+#card-btn {
+    background-color: var(--pinky);
+    color: var(--white);
+    padding: 1rem;
+    margin: 1rem;
+    border: none;
+    border-radius: 1rem;
+    width: 12rem;
+    
+}
+
+#card-btn:hover {
+    color: var(--craterBrown);
+    cursor: pointer;
+    
+}
