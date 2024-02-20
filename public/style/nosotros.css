@@ -53,3 +53,9 @@
     display: flex;
     justify-content: space-around;
 }
+
+#inicio-nosotros img{
+    width: 90px;
+    height: 90px;
+    margin-top: 30px;
+}
