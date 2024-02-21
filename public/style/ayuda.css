@@ -1,0 +1,75 @@
+@import url('./global/variables.css');
+
+.ayuda{
+    height: 180px;
+    background-color: var(--grayLight);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ayuda p {
+    font-size: 180%;
+}
+
+#cards-ayuda{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--pinky);
+    justify-content: space-evenly;
+    padding-bottom: 5%;
+    height: 450px;
+}
+
+.card-ayuda{
+    width: 25%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+    border-radius: 5%;
+    background-color: var(--grayLight);
+
+}
+
+.card-ayuda img{
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+}
+
+.card-ayuda p{
+    font-size: 130%;
+}
+
+#preguntas{
+    background-color: var(--pinky);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 400px;
+    
+}
+
+.card-pregunta{
+    background-color: var(--grayLight);
+    height: 60px;
+    width: 33%;
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    align-items: center;
+}
+
+.card-pregunta img{
+    height: 35px;
+    width: 35px;
+    margin-right: 25px;
+}
+
+.card-pregunta p{
+    font-size: 130%;
+}
