@@ -498,3 +498,46 @@ input[type="email"]{
     flex-direction: row-reverse;
     align-items: center;
 }
+
+
+/* Estilos para pantallas grandes */
+@media only screen and (min-width: 1024px) {
+    #menuLateral:checked ~ .container-menu .cont-menu {
+        left: 60%;
+    }
+    #inicioSesion:checked~.container-sesion .cont-menusesion {
+        left: 60%;
+    }
+    
+    .cont-menu,
+    .cont-menusesion,
+    .cont-recu,
+    .con-vali {
+      width: 40%;
+      max-width: 40%; 
+      left: 60%;/* Cambia el tamaño del menú lateral */
+    }
+  }
+
+  
+  /* Estilos para pantallas medianas */
+  @media only screen and (max-width: 1023px) and (min-width: 768px) {
+    #menuLateral:checked ~ .container-menu .cont-menu {
+        left: 60%;
+    }
+    #inicioSesion:checked~.container-sesion .cont-menusesion {
+        left: 60%;
+    }
+    
+    .cont-menu,
+    .cont-menusesion,
+    .cont-recu,
+    .con-vali {
+      width: 40%;
+      max-width: 40%; 
+      left: 60%;/* Cambia el tamaño del menú lateral */
+    }
+    
+  }
+  
+  
