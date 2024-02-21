@@ -18,8 +18,8 @@
   }
 
   .card input{
-    width: 200px;
-    height: 40px;
+    width: 300px;
+    height: 50px;
     border-radius: 5px;
     border: none;
   }
@@ -81,8 +81,8 @@
   }
 
   .hotel img {
-    width: 200px; 
-    height: 341px; 
+    width: 400px; 
+    height: 326px; 
     object-fit: cover; 
     border-bottom-left-radius: 20px;
     border-top-left-radius: 20px;
