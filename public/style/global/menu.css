@@ -56,3 +56,445 @@
 .submenu ul li {
     padding: 2rem 3rem;
 }
+
+
+
+/*Lateral Menu*/
+#menuLateral {
+    display: none;
+}
+
+.container-menu {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    display: none;
+}
+
+#menuLateral:checked ~ .container-menu {
+    opacity: 1;
+    display: inline;
+}
+
+.cont-menu {
+    width: 100%;
+    max-width: 500px;
+    background: #4c3839;
+    height: 100vh;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translateY(-100%);
+    left: 67.1%;
+}
+
+#menuLateral:checked ~ .container-menu .cont-menu {
+    transform: translateY(-0%);
+    left: 67.1%;
+}
+
+.cont-menu nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(15%);
+    padding: 50px;
+}
+
+.cont-menu nav a {
+    display: block;
+    padding: 18px;
+    color: black;
+    border-right: 5px solid transparent;
+    transition: all 400ms ease;
+}
+
+.cont-menu nav a {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 250px;
+    height: 50%;
+    border-radius: 15px;
+    background: white;
+    justify-content: space-evenly;
+}
+
+.cont-menu nav a:hover {
+    transform: translateX(5%);
+}
+
+.cont-menu label {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+
+
+.cont-menu nav h2 {
+    color: white;
+    font-size: 35px;
+}
+
+.cont-menu nav #registro {
+    cursor: pointer;
+}
+
+.cont-menu img {
+    width: 40px;
+    height: 40px;
+}
+
+.cont-menu nav p {
+    color: white;
+    font-size: 20px;
+}
+
+.cont-menu nav .txtLateralNav {
+    margin-top: 25px;
+}
+
+#correo1 {
+    margin-top: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+
+/*Lateral Menu2*/
+
+#inicioSesion{
+    display: none;
+}
+
+.container-sesion{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    display: none;
+    
+}
+
+#inicioSesion:checked~.container-sesion{
+    opacity: 1;
+    display: inline;
+}
+
+.cont-menusesion{
+    width: 100%;
+    max-width: 500px;
+    background: #4c3839;
+    height: 100vh;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translateY(-100%);
+    left: 67.1%;
+}
+
+#inicioSesion:checked~.container-sesion .cont-menusesion {
+    transform: translateY(-0%);
+    left: 67.1%;
+}
+
+.cont-menusesion nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(10%);
+    padding: 50px;
+}
+.cont-menusesion nav a {
+    display: block;
+    padding: 18px;
+    color: black;
+    border-right: 5px solid transparent;
+    transition: all 400ms ease;
+}
+
+
+.cont-menusesion .volverSesion {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+.cont-menusesion .icon-close1 {
+    position: absolute;
+    right:10px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+.cont-menusesion img {
+    width: 40px;
+    height: 40px;
+}
+
+.cont-menusesion #recuperarSesion,#correoSesion,#contraseñaSesion {
+    margin-top: 16px;
+}
+.cont-menusesion nav h2 {
+    color: white;
+    font-size: 35px;
+}
+
+.cont-menusesion #correoSesion,#contraseñaSesion {
+    margin-right: 30%;
+    font-size: 16px;
+    color: #e2d6d6c9;
+}
+
+.cont-menusesion #contraseñaSesion {
+    margin-right: 44%;
+    font-size: 16px;
+    color: #e2d6d6c9;
+}
+
+.cont-menusesion .recoSecionCamp {
+    margin-left: 10%;
+    font-size: 16px;
+    color: #e2d6d6c9;
+}
+.cont-menusesion .recordarSesion {
+    margin-left: -46%;
+    margin-block-end: -18px;
+    font-size: 16px;
+}
+
+.cont-menusesion #robotSesion {
+    width: 16vw;
+    height: 20vh;
+    border-radius: 40%;
+    margin-top: -15px;
+}
+
+.cont-menusesion .iniciarSesion{
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: -30px;
+}
+.cont-menusesion #recuperarSesion{
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+  input[type="email"],
+  input[type="password"] {
+    width: 60%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin-bottom: 20px;
+  }
+
+  /*lateral menu3*/
+
+#recuperarC{
+    display: none;
+}
+
+.conteiner-recu{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    display: none;
+}
+
+#recuperarC:checked~.conteiner-recu{
+    opacity: 1;
+    display: inline;
+}
+
+.cont-recu{
+    width: 100%;
+    max-width: 500px;
+    background: #4c3839;
+    height: 100vh;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translateY(-0%);
+    left: 67.1%;
+}
+#recuperarC:checked~.container-recu .cont-recu {
+    transform: translateY(-100%);
+    left: 67.1%;
+}
+.cont-recu nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transform: translateY(10%);
+    padding: 50px;
+}
+.cont-recu nav a {
+    display: block;
+    padding: 18px;
+    color: black;
+    border-right: 5px solid transparent;
+    transition: all 400ms ease;
+}
+
+
+.cont-recu #robotSesion1 {
+    width: 16vw;
+    height: 20vh;
+    border-radius: 40%;
+    margin-top: -15px;
+}
+.cont-recu .volverSesion1 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+.cont-recu .icon-close2 {
+    position: absolute;
+    right:10px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+.cont-recu img {
+    width: 40px;
+    height: 40px;
+}
+.cont-recu .recuperar{
+    width: 30%;
+    height: 50px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: -30px;
+}
+.cont-recu nav h2 {
+    color: white;
+    font-size: 35px;
+}
+input[type="email"]{
+  width: 60%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+.cont-recu #correoRecu {
+    margin: 16px;
+}
+.cont-recu #correoRecu {
+    margin-right: 30%;
+    font-size: 16px;
+    color: #e2d6d6c9;
+}
+/*lateral menu3*/
+#verificacion{
+    display: none;
+}
+
+.conteiner-valida{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    display: none;
+}
+#verificacion:checked~.conteiner-valida{
+    opacity: 1;
+    display: inline;
+}
+.con-vali{
+    width: 100%;
+    max-width: 500px;
+    background: #4c3839;
+    height: 100vh;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translateY(-0%);
+    left: 67.1%;
+}
+#verificacion:checked~.container-valida .con-vali {
+    transform: translateY(-100%);
+    left: 67.1%;
+}
+
+.con-vali img{
+    width: 40px;
+    height: 40px;
+}
+.con-vali nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transform: translateY(10%);
+    padding: 82px 40px;
+}
+.con-vali nav a {
+    display: block;
+    padding: 18px;
+    color: black;
+    border-right: 5px solid transparent;
+    transition: all 400ms ease;
+}
+
+.con-vali .volverSesion2 {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+.con-vali .icon-close3 {
+    position: absolute;
+    right:10px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+.con-vali img {
+    width: 40px;
+    height: 40px;
+}
+
+.con-vali nav h2 {
+    color: white;
+    font-size: 35px;
+}
+#txt-validation{
+    color: #ccc;
+    font-size: 17px;
+}
+.contend {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}

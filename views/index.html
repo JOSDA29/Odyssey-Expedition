@@ -10,6 +10,7 @@
     <title>Odyssey Expedition</title>
 </head>
 <body>
+    
     <header>
         <div class="menu">
             <figure >
@@ -26,7 +27,7 @@
                         <li><a href="#">Inicio</a></li>
                         <li><a href="#">Nosotros</a></li>
                         <li><a href="#">Ayuda</a></li>
-                        <li><a href="#">Perfil</a></li>
+                        <li><a href="#" ><label for="menuLateral" class="perfil">Perfil</label></a></li>
                     </ul>
                 </nav>
         </div>
@@ -43,6 +44,98 @@
         </nav>
     </header>
 
+
+    <input type="checkbox" id="menuLateral">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <h2 id="txtLateral1">Ingresa</h2>
+                <p>Para iniciar una aventura</p>
+                <a href="#">
+                    <img src="../public/assets/img/icon/socialMedia/facebook.png" alt="">
+                    Ingresar con Facebook
+                </a>
+                <a href="#">
+                    <img src="../public/assets/img/icon/socialMedia/google.png" alt="">
+                    Ingresar con Google
+                </a>
+
+                <a href="#" id="enlaceIngresarCorreo">
+                    <img src="../public/assets/img/icon/socialMedia/email.png" alt="">
+                    Ingresar con Correo
+                </a>
+
+                <p class="txtLateralNav">¿No estás registrado?</p>
+                <p id="registro">Regístrate ahora</p>
+            </nav>
+            
+            <label for="menuLateral" class="icon-close">
+                <img src="../public/assets/img/icon/interface/close.png" alt="">
+            </label>
+        </div>
+    </div>
+    
+
+    <input type="checkbox" id="inicioSesion">
+    <div class="container-sesion">
+        <div class="cont-menusesion">
+            <nav>
+                <h2 id="txtsesion">Inicio Sesion</h2>
+                <p id="correoSesion">Correo Electrónico*</p>
+                <input type="email" placeholder="example@example.com">  
+                <p id="contraseñaSesion">Contraseña*</p>
+                <input type="password" placeholder="juan123">  
+                <input type="checkbox" class="recordarSesion">
+                <p class="recoSecionCamp">recordarme en este equipo</p>
+                <a href="#" id="recuperarSesionLink"><img id="robotSesion" src="../public/assets/img/icon/interface/robot.gif" alt=""></a>
+                <button class="iniciarSesion">Iniciar</button>
+                <p id="recuperarSesion">¿Haz olvidado tu contraseña?</p>
+            </nav>
+            <label for="inicioSesion" class="volverSesion"><img src="../public/assets/img/icon/interface/arrow-return.png" alt=""></label>
+            <label for="inicioSesion" class="icon-close1"><img src="../public/assets/img/icon/interface/close.png" alt=""></label>
+        </div>
+    </div>
+    
+    <input type="checkbox" id="recuperarC">
+    <div class="conteiner-recu">
+        <div class="cont-recu">
+            <nav>
+                <h2 id="contraRecu">Recuperacion de Contrseña</h2>
+                <p id="correoRecu">Correo Electrónico*</p>
+                <input type="email" placeholder="example@example.com"> 
+                <a href="#"><img id="robotSesion1" src="../public/assets/img/icon/interface/robot.gif" alt=""></a>
+                <button class="recuperar">Recuperar</button>
+            </nav> 
+            <label for="recuperarC" class="volverSesion1"><img src="../public/assets/img/icon/interface/arrow-return.png" alt=""></label>
+            <label for="recuperarC" class="icon-close2"><img src="../public/assets/img/icon/interface/close.png" alt=""></label>
+        </div>
+    </div>
+    
+    <input type="checkbox" id="verificacion">
+    <div class="conteiner-valida">
+        <div class="con-vali">
+            <nav>
+                <h2 id="title">Recuperacion de contraseña</h2>
+                <div class="contend">
+                    <p id="txt-validation">Te hemos enviado un correo a
+                        xxxxxxxx@xxx.com para
+                        que puedas recuperar tu
+                        contrasena. Consültalo y sigue los
+                        pasos indicados.</p>
+                        <a href="#"><img id="check" src="../public/assets/img/icon/interface/check.png" alt=""></a>
+                </div>
+            </nav>
+             <label for="verificacion" class="volverSesion2"><img src="../public/assets/img/icon/interface/arrow-return.png" alt=""></label>
+            <label for="verificacion" class="icon-close3"><img src="../public/assets/img/icon/interface/close.png" alt=""></label>
+        
+        </div>
+    </div>
+
+
+    
+
+
+    
     <section class="wrapper">
         <section class="container-ticket">
             <div class="ticket">
@@ -216,5 +309,8 @@
             <p>Google Maps</p>
         </div>
     </footer>
+
+   
+    <script src="/controller/index.js"></script>
 </body>
 </html>
