@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/public/style/global/variables.css">
+        <link rel="stylesheet" href="/public/style/global/menu.css">
+        <link rel="stylesheet" href="/public/style/global/footer.css">
+        <link rel="stylesheet" href="/public/style/index.css">
+        <link rel="stylesheet" href="/public/style/registro.css">
+        <title>registre</title>
+    </head>
+<body>
+     <header>
+        <div class="menu">
+            <figure >
+                <img id="menu-logo" src="/public/assets/img/icon/interface/logo.png" alt="">
+            </figure>
+
+            <div class="menu-name">
+                <h1 id="menu-title">Odyssey Expedition</h1>
+                <p id="menu-subtitle">Agencia de viajes</p>
+            </div>
+
+                <nav class="menu-content">
+                    <ul>
+                        <li><a href="./index.html">Inicio</a></li>
+                        <li><a href="#">Nosotros</a></li>
+                        <li><a href="#">Ayuda</a></li>
+                        <li><a href="#"><label for="menuLateral" class="perfil">Perfil</label></a></li>
+                    </ul>
+                </nav>
+        </div>
+        
+        <nav class="submenu">
+            <ul>
+                <li><a href="#">Vuelos</a></li>
+                <li><a href="#">Hoteles</a></li>
+                <li><a href="#">Paquetes</a></li>
+                <li><a href="#">Cruceros</a></li>
+                <li><a href="#">Actividades</a></li>
+                <li><a href="#">Carros</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <div class="wrapper">
+        <div class="contet-register">
+        <h1>Crea tu cuenta</h1>
+        <p>Crea tu cuenta en Atråpalo gratis y empieza a disfrutar de experiencias exclusivas a precios irrepetibles</p>
+        </div>
+        <div class="vinculations">
+            <a href="#"><img src="../public/assets/img/icon/socialMedia/facebook.png" alt="">Ingresar con Faceboock</a>
+                <a href="#"><img src="../public/assets/img/icon/socialMedia/google.png" alt="">Ingresar con Google</a>
+                
+        </div>
+        <div class="lines">
+            <hr id="line1"><p>o bien</p><hr id="line1">
+        </div>
+        
+        <div class="campos">
+            <div>
+              <p id="txtLlenar">Nombre*</p>
+              <input type="text" placeholder="Digita tu nombre">
+            </div>
+            <div>
+              <p id="txtLlenar">Apellido*</p>
+              <input type="text" placeholder="Digita tu apellido">
+            </div>
+          </div>
+
+                <div class="campos2">
+            <div>
+            <p id="txtLlenar2">Correo Electrónico*</p>
+            <input type="email" id="emailRegister" placeholder="example@example.com">
+            </div>
+            <div>
+            <p id="txtLlenar2">Contraseña*</p>
+            <input type="password" id="passwordRegister" placeholder="Contraseña">
+            </div>
+        </div>
+
+        <div class="conditionsTerminos">
+            <input type="checkbox" class="terminos">
+            <p class="txtconditions">Aceptar Terminos y condiciones</p>
+            <button class="create">Crear cuenta</button>
+        </div>
+        
+         
+    </div>
+
+    
+    <input type="checkbox" id="menuLateral">
+    <div class="container-menu">
+        <div class="cont-menu">
+            <nav>
+                <h2 id="txtLateral1">Ingresa</h2>
+                <p>Para iniciar una aventura</p>
+                <a href="#">
+                    <img src="../public/assets/img/icon/socialMedia/facebook.png" alt="">
+                    Ingresar con Facebook
+                </a>
+                <a href="#">
+                    <img src="../public/assets/img/icon/socialMedia/google.png" alt="">
+                    Ingresar con Google
+                </a>
+
+                <a href="#" id="enlaceIngresarCorreo">
+                    <img src="../public/assets/img/icon/socialMedia/email.png" alt="">
+                    Ingresar con Correo
+                </a>
+
+                <p class="txtLateralNav">¿No estás registrado?</p>
+                <p id="registro">Regístrate ahora</p>
+            </nav>
+            
+            <label for="menuLateral" class="icon-close">
+                <img src="../public/assets/img/icon/interface/close.png" alt="">
+            </label>
+        </div>
+    </div>
+    
+
+    <input type="checkbox" id="inicioSesion">
+    <div class="container-sesion">
+        <div class="cont-menusesion">
+            <nav>
+                <h2 id="txtsesion">Inicio Sesion</h2>
+                <p id="correoSesion">Correo Electrónico*</p>
+                <input type="email" placeholder="example@example.com">  
+                <p id="contraseñaSesion">Contraseña*</p>
+                <input type="password" placeholder="juan123">  
+                <input type="checkbox" class="recordarSesion">
+                <p class="recoSecionCamp">recordarme en este equipo</p>
+                <a href="#" id="recuperarSesionLink"><img id="robotSesion" src="../public/assets/img/icon/interface/robot.gif" alt=""></a>
+                <button class="iniciarSesion">Iniciar</button>
+                <p id="recuperarSesion">¿Haz olvidado tu contraseña?</p>
+            </nav>
+            <label for="inicioSesion" class="volverSesion"><img src="../public/assets/img/icon/interface/arrow-return.png" alt=""></label>
+            <label for="inicioSesion" class="icon-close1"><img src="../public/assets/img/icon/interface/close.png" alt=""></label>
+        </div>
+    </div>
+    
+    <input type="checkbox" id="recuperarC">
+    <div class="conteiner-recu">
+        <div class="cont-recu">
+            <nav>
+                <h2 id="contraRecu">Recuperacion de Contrseña</h2>
+                <p id="correoRecu">Correo Electrónico*</p>
+                <input type="email" placeholder="example@example.com"> 
+                <a href="#"><img id="robotSesion1" src="../public/assets/img/icon/interface/robot.gif" alt=""></a>
+                <button class="recuperar">Recuperar</button>
+            </nav> 
+            <label for="recuperarC" class="volverSesion1"><img src="../public/assets/img/icon/interface/arrow-return.png" alt=""></label>
+            <label for="recuperarC" class="icon-close2"><img src="../public/assets/img/icon/interface/close.png" alt=""></label>
+        </div>
+    </div>
+    
+    <input type="checkbox" id="verificacion">
+    <div class="conteiner-valida">
+        <div class="con-vali">
+            <nav>
+                <h2 id="title">Recuperacion de contraseña</h2>
+                <div class="contend">
+                    <p id="txt-validation">Te hemos enviado un correo a
+                        xxxxxxxx@xxx.com para
+                        que puedas recuperar tu
+                        contrasena. Consültalo y sigue los
+                        pasos indicados.</p>
+                        <a href="#"><img id="check" src="../public/assets/img/icon/interface/check.png" alt=""></a>
+                </div>
+            </nav>
+             <label for="verificacion" class="volverSesion2"><img src="../public/assets/img/icon/interface/arrow-return.png" alt=""></label>
+            <label for="verificacion" class="icon-close3"><img src="../public/assets/img/icon/interface/close.png" alt=""></label>
+        
+        </div>
+    </div>
+
+
+    
+
+
+   
+
+
+
+
+    <footer>
+        <div class="footer-content">
+            <h3>Sobre nosotros</h3>
+            <p>Quienes somos</p>
+            <p>Terminos y condiciones</p>
+            <p>Politica y privacidad</p>
+        </div>
+
+        <div class="footer-content">
+            <h3>¿Necesitas asistencia?</h3>
+            <p>Telefonos</p>
+            <p>Preguntas frecuentes</p>
+            <p>Asesoria personalizada</p>
+        </div>
+
+        <div class="footer-content">
+            <h3>Ubicaciones</h3>
+            <p>Unicentro piso 2. Cra 14 No.<br>6-02.  Armenia, Quindío, Colombia</p>
+            <p>Google Maps</p>
+        </div>
+    </footer>
+<script src="../controller/index.js"></script>
+
+</body>
+</html>

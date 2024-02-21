@@ -1,0 +1,136 @@
+@import url('variables.css');
+
+/*GENERAL*/
+.wrapper {
+    background-color: var(--pinky);
+    width: 100%;
+    height: 110vh;
+   
+}
+
+
+.contet-register{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contet-register h1{
+    margin: 20px;
+    font-size: 40px;
+}
+
+.contet-register p{
+    margin: 20px;
+    font-size: 20px;
+}
+
+.vinculations {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+}
+
+.vinculations a{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background: white;
+    justify-content: space-evenly;
+}
+.vinculations a img{
+    width: 30px;
+    height: 30px;
+}
+
+.lines {
+    display: flex;
+    align-items: center;
+    margin-left: 14%;
+    padding: 30px 0px;
+}
+#line1 {
+    width:30rem;
+    margin:15px 20px;
+    border: solid 1px #0000004f;
+}
+
+.campos input {
+    height: 50px;
+    background: white;
+    justify-content: space-evenly;
+}
+
+.campos2 input {
+    height: 50px;
+    background: white;
+    justify-content: space-evenly;
+}
+
+   .campos {
+      width: 35%;
+      display: flex;
+      justify-content: space-between;
+      margin-left: 30%;
+    }
+
+    #txtLlenar {
+      font-size: 15px;
+    }
+
+    input[type="text"]{
+      width: 135%;
+      padding: 5px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 15px;
+    }
+
+   
+    .campos2 {
+        width: 39%;
+        margin: 0 auto;
+      }
+  
+      .campos2 div {
+        margin-bottom: 10px;
+      }
+  
+      #txtLlenar2 {
+        font-size: 15px;
+      }
+  
+      #emailRegister,
+      #passwordRegister {
+        width: 100%;
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+      }
+
+      .terminos {
+        margin: -15px 16px;
+        margin-top: 1%;
+        margin-right: 15%;
+    }
+
+      .conditionsTerminos{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+    }
+    .create {
+        margin-top: 1%;
+        border: none;
+        color: white;
+        font-size: 17px;
+        background-color: #4c3839;
+        width: 150px;
+        height: 60px;
+        border-radius: 15px;
+        cursor: pointer;
+    }
