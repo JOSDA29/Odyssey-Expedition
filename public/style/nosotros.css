@@ -1,0 +1,61 @@
+@import url('variables.css');
+
+#inicio-nosotros{
+    height: 440px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)),url('../assets/img/wallpaper/fondoNosotros.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inicio-nosotros #title{
+    color: var(--white);
+    font-size: 380%;
+    margin: 1%;
+}
+
+#inicio-nosotros p{
+    color: var(--white);
+    font-size: 150%;
+}
+
+#info-nosotros{
+    height: 330px;
+    width: 100%;
+    background-color: var(--pinky);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#info-nosotros img{
+    height: 100%;
+    width: 10%;
+}
+
+#info-nosotros #title2{
+    font-size: 180%;
+}
+
+#info-nosotros p{
+    font-size: 100%;
+    width: 75%;
+    text-align: center;
+}
+
+#redes-sociales{
+    width: 25%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#inicio-nosotros img{
+    width: 90px;
+    height: 90px;
+    margin-top: 30px;
+}
